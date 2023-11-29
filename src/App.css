@@ -1,0 +1,128 @@
+.navigation-bar {
+  background-color: rgb(169, 74, 241);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info a {
+  color: white;
+  margin-right: 10px;
+}
+
+.img-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-self: normal;
+}
+
+.img-bar img {
+  height: 200px;
+  width: 100%;
+}
+
+.avatar-img {
+  display: flex;
+  height: 195px;
+  width: fit-content;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  line-height: -2px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 5%;
+  color: white;
+}
+
+.title h1 {
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.profile-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(137, 60, 178, 0.468);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 10px 10px 20px;
+  margin-top: -150px;
+}
+
+.card-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bio-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.bio-container p {
+    width: 80%;
+    max-width: 700px;
+    padding: 20px;
+    line-height: 1.5rem;
+}
+
+.work-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.work-container {
+  width: 80%;
+  max-width: 700px;
+}
+
+.main-img {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.main-img img {
+  width: 100%;
+}
+
+.secondary-img {
+  width: 100%;
+  display: flex;
+}
+
+.secondary-img-link {
+  width: 50%;
+}
+
+.secondary-img-link img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+footer a {
+  margin-right: 10px;
+}
