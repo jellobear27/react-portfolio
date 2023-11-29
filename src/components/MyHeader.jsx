@@ -5,9 +5,10 @@ function MyHeader() {
     <header>
     <nav className="navigation-bar">
      <div className="info">
-       <a href="#about">About</a>
-       <a href="#work">Work</a>
-       <a href="#contact">Contact</a>
+       <a href="#about">About-Janell</a>
+       <a href="#portfolio">Portfolio</a>
+       <a href="#contact">Contact-Me</a>
+       <a href="#reseme">Reseme</a>
        </div>
      </nav>
  </header>
