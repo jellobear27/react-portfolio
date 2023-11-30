@@ -6,14 +6,20 @@
   justify-content: center;
 }
 
+.active-link {
+  color: red !important;
+}
+
+
 .info {
   display: flex;
   justify-content: space-between;
 }
 
-.info a {
+.info div {
   color: white;
   margin-right: 10px;
+  cursor: pointer;
 }
 
 .img-bar {

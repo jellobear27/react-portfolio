@@ -1,26 +1,27 @@
 import "./App.css";
 import "./reset.css";
+
+import { useEffect, useState} from 'react'
+
 import MyHeader from "./components/MyHeader";
-import AboutMeText from "./components/AboutMeText";
 import ImgBar from "./components/ImgBar";
 import CardContainer from "./components/CardContainer";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import PageContent from "./PageContent";
 
 function App() {
+  const [activePage, setActivePage] = useState("about");
+
+  useEffect(() => {
+    console.log(activePage)
+  }, [activePage])
+  
+
   return (
     <>
-      <MyHeader />
-
+      <MyHeader activePage={activePage} setActivePage={setActivePage}/>
       <ImgBar />
-
       <CardContainer />
-
-      <AboutMeText />
-
-      <Projects />
-
-      <Contact />
+      <PageContent activePage={activePage}/>
     </>
   );
 }

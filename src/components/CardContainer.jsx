@@ -4,7 +4,7 @@ import Title from "./CardContainer/Title";
 
 function CardContainer() {
   return (
-    <section className="card-container">
+    <section style={{marginBottom: "30px"}} className="card-container">
       <article className="profile-card">
         <AvatarImg />
         <Title />
