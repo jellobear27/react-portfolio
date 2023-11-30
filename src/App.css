@@ -10,7 +10,6 @@
   color: red !important;
 }
 
-
 .info {
   display: flex;
   justify-content: space-between;
@@ -54,8 +53,8 @@
 }
 
 .title h1 {
-    font-weight: 600;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .profile-card {
@@ -77,15 +76,15 @@
 }
 
 .bio-container {
-    display: flex;
-    width: 100%;
-    justify-content: center;
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
 .bio-container p {
-    width: 80%;
-    max-width: 700px;
-    padding: 20px;
-    line-height: 1.5rem;
+  width: 80%;
+  max-width: 700px;
+  padding: 20px;
+  line-height: 1.5rem;
 }
 
 .project-section {
@@ -122,6 +121,36 @@
   width: 100%;
 }
 
+.project-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+  margin-bottom: 20px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.myBtn {
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.gitButton {
+background-color: blueviolet;
+}
+
+.depButton {
+background-color: blue;
+}
+
 footer {
   width: 100%;
   text-align: center;
@@ -131,7 +160,7 @@ footer {
 }
 
 footer a {
-  background-color: #04AA6D; /* Green */
+  background-color: #04aa6d; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;

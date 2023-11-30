@@ -3,6 +3,7 @@ import Projects from "./components/Projects";
 import AboutMeText from "./components/AboutMeText";
 import ContactForm from "./components/ContactForm";
 import Resume from './components/Resume'
+import ProjectRows from "./components/ProjectRows";
 
 function PageContent(props) {
   const { activePage } = props;
@@ -10,7 +11,7 @@ function PageContent(props) {
   if (activePage === "about") {
     return <AboutMeText />;
   } else if (activePage === "portfolio") {
-    return <Projects />;
+    return <ProjectRows />;
   } else if (activePage === "contact") {
     return <ContactForm />;
   } else if (activePage === "resume") {
