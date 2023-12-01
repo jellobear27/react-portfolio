@@ -7,6 +7,9 @@ import MyHeader from "./components/MyHeader";
 import ImgBar from "./components/ImgBar";
 import CardContainer from "./components/CardContainer";
 import PageContent from "./PageContent";
+import ContactForm from "./components/ContactForm";
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [activePage, setActivePage] = useState("about");
@@ -25,6 +28,7 @@ function App() {
     </>
   );
 }
+
 
 
 export default App;

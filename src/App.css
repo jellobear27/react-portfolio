@@ -133,14 +133,15 @@
 }
 
 .myBtn {
-  background-color: #04AA6D; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
   display: inline-block;
+  padding: 8px 16px;
+  margin: 8px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #fff;
   font-size: 16px;
+  transition: all 0.3s ease;
 }
 
 .gitButton {
@@ -149,6 +150,41 @@ background-color: blueviolet;
 
 .depButton {
 background-color: blue;
+}
+
+.myBtn:hover {
+  background-color: #7d0945;
+  border-color: #7d0945;
+}
+
+
+.contact-header {
+  display: flex;
+  background-color: rgb(92, 11, 158);
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 50px;
+}
+/* Styling for the custom send message button */
+.custom-send-message-button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 10px 24px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+/* Styling for the custom send message button when hovered over */
+.custom-send-message-button:hover {
+  background-color: #16651a;
+  color: white;
 }
 
 footer {
