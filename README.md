@@ -33,7 +33,7 @@ The React Portfolio is a single-page application (SPA) created to display a juni
 
 ## Installation
 
-1. Clone the repository locally using `git clone https://github.com/your-username/react-portfolio.git`.
+1. Clone the repository locally using `git clone https://github.com/jellobear27/react-portfolio`.
 2. Navigate to the project directory.
 3. Run `npm install` to install project dependencies.
 

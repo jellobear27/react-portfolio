@@ -7,8 +7,6 @@ import MyHeader from "./components/MyHeader";
 import ImgBar from "./components/ImgBar";
 import CardContainer from "./components/CardContainer";
 import PageContent from "./PageContent";
-import ContactForm from "./components/ContactForm";
-import Resume from "./components/resume";
 import Footer from "./components/Footer";
 
 
