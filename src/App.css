@@ -1,3 +1,5 @@
+
+/*Styles for the navigation bar*/
 .navigation-bar {
   background-color: rgb(169, 74, 241);
   padding-top: 20px;
@@ -5,7 +7,7 @@
   display: flex;
   justify-content: center;
 }
-
+/*Styles for active links, setting their color to red*/
 .active-link {
   color: red !important;
 }
@@ -21,6 +23,7 @@
   cursor: pointer;
 }
 
+/*header and Avatar styles*/
 .img-bar {
   display: flex;
   flex-direction: row;
@@ -213,7 +216,7 @@ footer {
 }
 
 footer a {
-  background-color: #500566; /* Green */
+  background-color: #500566;
   border: none;
   color: white;
   padding: 15px 32px;

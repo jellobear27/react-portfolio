@@ -1,5 +1,6 @@
 import React from "react";
 
+//footer links
 function Footer() {
   return (
     <footer>

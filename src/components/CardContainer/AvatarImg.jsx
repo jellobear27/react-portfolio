@@ -1,5 +1,6 @@
 import React from 'react'
 
+//import avatar img//
 function AvatarImg() {
   return (
     <div className="avatar-img">
