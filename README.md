@@ -11,6 +11,7 @@ This is a portfolio website built using React, showcasing projects, personal inf
 - [Technologies Used](#technologies-used)
 - [Screen Shot](#screen-shot)
 - [Walk Through Video](#walk-through-video)
+- [Link to Deployed App](#link-to-deployed-app)
 - [Contributing](#contributing)
 - [Credits](#credits)
 - [License](#license)
@@ -33,7 +34,7 @@ The React Portfolio is a single-page application (SPA) created to display a juni
 
 ## Installation
 
-1. Clone the repository locally using `git clone https://github.com/jellobear27/react-portfolio`.
+1. Clone the repository locally using `git clone 'https://github.com/jellobear27/react-portfolio'`.
 2. Navigate to the project directory.
 3. Run `npm install` to install project dependencies.
 
@@ -51,19 +52,22 @@ The React Portfolio is a single-page application (SPA) created to display a juni
 - Vite (for development)
 
 ## Screen Shot
-![Screenshot](assets/screenshot.png)
+![Screenshot](public/assets/Screenshot.png)
 
 
 ## Walk Through Video
 [![Watch the video]](https://drive.google.com/file/d/1RaSTqs47k0xJVzLEHV1X0KVTTychbUYp/view?usp=sharing)
 
 
+## Link to Deployed App
+[![Deployed App]](https://6573e78f56c3780008f856e5--legendary-panda-9d90ca.netlify.app/)
+
 ## Contributing
 
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to submit a pull request. Make sure to follow the existing code style and maintain consistency.
 
 ## Credits
-- **Author:** janell
+- **Author:** janell Smith GitHub: https://github.com/jellobear27
 
 ## License
 
