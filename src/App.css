@@ -228,3 +228,38 @@ footer a {
 footer a:hover {
   background-color: #3a5fe7;
 }
+/* ProjectRow.css */
+
+.project-row {
+  position: relative;
+  /* Other styles for the project-row container */
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.project-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.image-container:hover .overlay-text {
+  opacity: 1;
+}
