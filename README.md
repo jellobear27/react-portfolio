@@ -67,7 +67,7 @@ The React Portfolio is a single-page application (SPA) created to display a juni
 Contributions are welcome! If you find any issues or have suggestions for improvement, feel free to submit a pull request. Make sure to follow the existing code style and maintain consistency.
 
 ## Credits
-- **Author:** janell Smith GitHub: https://github.com/jellobear27
+- **Author:** Janell Smith GitHub: https://github.com/jellobear27
 
 ## License
 
