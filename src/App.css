@@ -266,3 +266,62 @@ footer a:hover {
 .image-container:hover .overlay-text {
   opacity: 1;
 }
+/* Styles for the navigation bar */
+.navigation-bar {
+  background-color: rgb(169, 74, 241);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .img-bar {
+    flex-direction: column;
+  }
+
+  .avatar-img {
+    margin: 0 auto;
+  }
+
+  .title {
+    padding-bottom: 2%;
+  }
+
+  .profile-card {
+    margin-top: -100px;
+  }
+
+  .bio-container p {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .project-container {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .main-img img,
+  .secondary-img-link img {
+    width: 100%;
+    height: auto;
+  }
+
+  .project-row {
+    padding: 0 10px;
+  }
+
+  .myBtn {
+    margin: 4px;
+  }
+
+  .contact-header {
+    font-size: 30px;
+  }
+
+  .resumeButton {
+    margin-bottom: 20px;
+  }
+}
