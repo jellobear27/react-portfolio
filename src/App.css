@@ -9,7 +9,7 @@
 }
 /*Styles for active links, setting their color to red*/
 .active-link {
-  color: red !important;
+  color: #1215ef !important;
 }
 
 .info {
@@ -38,12 +38,17 @@
 
 .avatar-img {
   display: flex;
-  height: 195px;
-  width: fit-content;
+  /* height: 195px; */
+  width: 100%;
+  max-width: 200px;
   border-radius: 50%;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+}
+
+.profile-img {
+  width: 100%;
 }
 
 .title {
@@ -53,11 +58,14 @@
   padding-top: 10px;
   padding-bottom: 5%;
   color: white;
+  display: flex;
+  flex-direction: column;
 }
 
 .title h1 {
   font-weight: 600;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: -20px;
 }
 
 .profile-card {
@@ -70,6 +78,7 @@
   text-align: center;
   box-shadow: 10px 10px 20px;
   margin-top: -150px;
+  /* min-width: 400px; */
 }
 
 .card-container {
@@ -148,16 +157,16 @@
 }
 
 .gitButton {
-  background-color: blueviolet;
+  background-color: #5b32d7a6;
 }
 
 .depButton {
-  background-color: blue;
+  background-color: #500566;
 }
 
 .myBtn:hover {
-  background-color: #7d0945;
-  border-color: #7d0945;
+  background-color: #2b1ccb;
+  border-color: #2b1ccb;
 }
 
 .contact-header {
@@ -170,22 +179,25 @@
 }
 /* Styling for the custom send message button */
 .custom-send-message-button {
-  background-color: #6949ec;
+  background-color: #5b32d7a6;
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 10px auto; 
   cursor: pointer;
   padding: 10px 24px;
   border-radius: 4px;
   transition-duration: 0.4s;
 }
+.send-button{
+  display: flex;
+}
 /* Styling for the custom send message button when hovered over */
 .custom-send-message-button:hover {
-  background-color: #a6a0e9;
+  background-color: #2b1ccb;
   color: white;
 }
 
@@ -200,7 +212,7 @@ footer {
 .resumeButton {
   display: block;
   margin: 0 auto; 
-  background-color: #065cb7;
+  background-color: #5b32d7a6;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -212,7 +224,7 @@ footer {
 }
 
 .resumeButton:hover {
-  background-color: #500566;
+  background-color: #2b1ccb;
 }
 
 footer a {
@@ -229,7 +241,7 @@ footer a {
 }
 
 footer a:hover {
-  background-color: #3a5fe7;
+  background-color: #2b1ccb;
 }
 /* ProjectRow.css */
 
@@ -324,4 +336,9 @@ footer a:hover {
   .resumeButton {
     margin-bottom: 20px;
   }
+   .custom-send-message-button {
+    margin: 10px auto; 
+  }
 }
+
+

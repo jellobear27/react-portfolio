@@ -129,9 +129,11 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
                       </div>
                     )}
                   </Form.Group>
-                  <Button type="submit" className="custom-send-message-button">
+                  <div className="send-button">
+                  <button type="submit" className="custom-send-message-button">
                     Send Message
-                  </Button>
+                  </button>
+                  </div>
                 </Form>
               </Col>
             </Row>
