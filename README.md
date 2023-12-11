@@ -60,7 +60,7 @@ The React Portfolio is a single-page application (SPA) created to display a juni
 
 
 ## Link to Deployed App
-[![Deployed App]](https://6573e78f56c3780008f856e5--legendary-panda-9d90ca.netlify.app/)
+[![Deployed App]](https://main--helpful-meerkat-0154c9.netlify.app/)
 
 ## Contributing
 
