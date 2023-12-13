@@ -8,8 +8,9 @@ function ProjectRow(props) {
       <img style={{ maxWidth: "250px" }} src={imgSrc} alt={text} className="project-image"/>
       <div className="overlay-text">{videoLabel}</div>
       </div>
-      {gitHub ?  <a className="gitButton myBtn" href={gitHub}>GitHub</a> : null}
       {deployed ? <a className="depButton myBtn" href={deployed}>Deployed</a> : null}
+      {gitHub ?  <a className="gitButton myBtn" href={gitHub}>GitHub</a> : null}
+      
       
     </div>
   );

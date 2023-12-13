@@ -10,7 +10,6 @@ function ProjectRows() {
         gitHub={"https://github.com/jellobear27/quiz-app"}
         deployed={"https://quiz.com"}
         videoLabel={"Quiz-App"} // Add videoLabel prop for Quiz-App
-        
       />
       <ProjectRow
         imgSrc={"./assets/weather.png"}
@@ -27,19 +26,20 @@ function ProjectRows() {
         videoLabel={"PWA-App-JATE"}
       />
       <ProjectRow
-        imgSrc={"./assets/svglogomaker.png"}
-        text={"svg-logo-maker"}
-        gitHub={"https://github.com/jellobear27/svg-logo-maker"}
-        deployed={""}
-        videoLabel={"SVG-logo-maker"}
-      />
-      <ProjectRow
         imgSrc={"./assets/wakeup.jpg"}
         text={"wake-up"}
         gitHub={"https://github.com/crissyg923/wake-up-and-dream"}
         deployed={"https://crissyg923.github.io/wake-up-and-dream/"}
         videoLabel={"First-Group-Project"}
       />
+      <ProjectRow
+        imgSrc={"./assets/svglogomaker.png"}
+        text={"svg-logo-maker"}
+        gitHub={"https://github.com/jellobear27/svg-logo-maker"}
+        deployed={""}
+        videoLabel={"SVG-logo-maker"}
+      />
+
       <ProjectRow
         imgSrc={"./assets/readme.png"}
         text={"readme-generator"}

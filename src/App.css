@@ -1,3 +1,21 @@
+#root {
+  color: #f6f3f8d7;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 20s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
 
 /*Styles for the navigation bar*/
 .navigation-bar {
@@ -7,7 +25,7 @@
   display: flex;
   justify-content: center;
 }
-/*Styles for active links, setting their color to red*/
+/*Styles for active links, setting their color to blue*/
 .active-link {
   color: #1215ef !important;
 }
@@ -38,7 +56,6 @@
 
 .avatar-img {
   display: flex;
-  /* height: 195px; */
   width: 100%;
   max-width: 200px;
   border-radius: 50%;
@@ -78,7 +95,6 @@
   text-align: center;
   box-shadow: 10px 10px 20px;
   margin-top: -150px;
-  /* min-width: 400px; */
 }
 
 .card-container {
@@ -186,13 +202,13 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 10px auto; 
+  margin: 10px auto;
   cursor: pointer;
   padding: 10px 24px;
   border-radius: 4px;
   transition-duration: 0.4s;
 }
-.send-button{
+.send-button {
   display: flex;
 }
 /* Styling for the custom send message button when hovered over */
@@ -211,7 +227,7 @@ footer {
 
 .resumeButton {
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
   background-color: #5b32d7a6;
   color: white;
   padding: 10px 20px;
@@ -237,7 +253,7 @@ footer a {
   display: inline-block;
   font-size: 16px;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 300px;
 }
 
 footer a:hover {
@@ -336,9 +352,7 @@ footer a:hover {
   .resumeButton {
     margin-bottom: 20px;
   }
-   .custom-send-message-button {
-    margin: 10px auto; 
+  .custom-send-message-button {
+    margin: 10px auto;
   }
 }
-
-
