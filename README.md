@@ -52,11 +52,12 @@ The React Portfolio is a single-page application (SPA) created to display a juni
 - Vite (for development)
 
 ## Screen Shot
-![Screenshot](public/assets/Screenshot.png)
+![Screenshot](public/assets/Screenshotnew.png)
+![Screenshot](public/assets/Screenshot%202023-12-13%20at%201.13.53%20PM.png)
 
 
 ## Walk Through Video
-[![Watch the video]](https://drive.google.com/file/d/1RaSTqs47k0xJVzLEHV1X0KVTTychbUYp/view?usp=sharing)
+[![Watch the video]](https://drive.google.com/file/d/1aeug0fNj1J-KXTKyGM_QRaFLBKQM7JJ3/view?usp=sharing)
 
 
 ## Link to Deployed App
